@@ -1,0 +1,65 @@
+body{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label{
+    font-size: xx-large;
+}
+.checkbox{
+    transform: scale(2);
+    margin-right:13px;
+    margin-top: 100px;
+    
+}
+p{
+    color: red;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+}
+#ho{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    margin-top: 40px;
+    transform: scale(2);
+    margin-top: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border:none;
+    background-color: black;
+    color: white;
+}
+html{
+    background-image: url(Untitled-1.png);
+    background-size: cover;
+}
+.html{
+    animation-name: strt;
+    animation-duration: 4s;
+    
+}
+#but1:hover{
+    animation-name: hovr;
+    animation-duration: 2s;
+    cursor: pointer;
+
+}
+
+@keyframes strt {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes hovr{
+    100%{
+        opacity: 0.5;
+        border-radius: 0;
+    }
+}

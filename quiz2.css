@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    font-size: large;
+}
+html{
+    background-image: url(Untitled-1.png);
+    background-size:cover;
+    animation-name:strt;
+    animation-duration: 2s;
+}
+@keyframes strt{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+} 
