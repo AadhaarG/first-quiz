@@ -3,7 +3,7 @@ body{
     font-size: large;
 }
 html{
-    background-image: url(Untitled-1.png);
+    background-image: url(Untitled-11.png);
     background-size:cover;
     animation-name:strt;
     animation-duration: 2s;
@@ -17,4 +17,5 @@ html{
         transform: translateY(0px);
         opacity: 1;
     }
+
 } 
